@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-bk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://Spookyboki.github.io/Portfolio",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spookyboki/Portfolio.git"
+  },
+  "author": "Bojan Kolano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spookyboki/Portfolio/issues"
+  }
+}

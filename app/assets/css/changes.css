@@ -1,0 +1,30 @@
+.image {
+  height: 300px !important;
+}
+
+.main {
+  height: 443px !important;
+}
+
+.my-list {
+  list-style: disc;
+  border-bottom: 1px solid grey !important;
+}
+
+.sub-list {
+  list-style: none !important;
+}
+
+.main.about-image {
+  height: initial !important;
+}
+
+.project-text {
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 769px) {
+  .image {
+    height: 186px !important;
+  }
+}
