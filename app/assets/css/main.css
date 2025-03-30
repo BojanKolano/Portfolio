@@ -2854,6 +2854,8 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5rem;
+			font-size: 18px;
+			line-height: 1.7;
 		}
 
 		ul.divided {
@@ -3286,25 +3288,13 @@ input, select, textarea {
 	#intro {
 		color: #ffffff;
 		padding: 8rem 4rem 6rem 4rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
 		align-items: center;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
 		flex-direction: column;
-		-moz-justify-content: -moz-flex-end;
-		-webkit-justify-content: -webkit-flex-end;
-		-ms-justify-content: -ms-flex-end;
-		justify-content: flex-end;
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+		justify-content: center;
 		transition: opacity 1s ease, transform 1s ease;
 		position: relative;
 		cursor: default;
@@ -3395,6 +3385,7 @@ input, select, textarea {
 			font-style: italic;
 			margin-top: -0.25rem;
 			text-align: center;
+			line-height: 2;
 		}
 
 		#intro + #header {
@@ -3714,6 +3705,9 @@ input, select, textarea {
 					font-size: 0.8rem;
 					outline: none;
 					padding: 0 2rem;
+					height: 100%;
+					display: flex;
+					align-items: center;
 				}
 
 					#nav ul.links li a:hover {

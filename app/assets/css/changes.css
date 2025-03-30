@@ -1,8 +1,3 @@
-.education-title:hover {
-  color: rgb(24, 191, 239) !important;
-  transition: .4s;
-}
-
 .image {
   height: 300px !important;
 }
@@ -18,6 +13,10 @@
 
 .sub-list {
   list-style: none !important;
+}
+
+.main.about-image {
+  height: initial !important;
 }
 
 @media only screen and (max-width: 769px) {
