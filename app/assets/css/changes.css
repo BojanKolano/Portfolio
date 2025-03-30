@@ -19,6 +19,10 @@
   height: initial !important;
 }
 
+.project-text {
+  line-height: 1.5;
+}
+
 @media only screen and (max-width: 769px) {
   .image {
     height: 186px !important;
